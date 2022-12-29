@@ -1,0 +1,14 @@
+
+/* Colocando a imagem de fundo */
+body{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(../img/bg.jpg);
+}
+
+/* CSS da mosca */
+#mosca{
+    display: none;
+    width: 100px;
+    position: absolute;
+}
