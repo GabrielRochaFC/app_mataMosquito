@@ -1,4 +1,6 @@
-
+html{
+    cursor: url(../img/mata_mosca.png) 30 30, auto;
+}
 /* Colocando a imagem de fundo */
 body{
     background-repeat: no-repeat;

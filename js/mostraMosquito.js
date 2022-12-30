@@ -1,8 +1,8 @@
 // Creating variables
-var speedOfChange = 1000;
-var timer = setInterval(showFly, speedOfChange)
+var speedOfFly = 1500;
+speedOfFly = speed();
+var timer = setInterval(showFly, speedOfFly)
 var fly = document.getElementById('fly')
-
 
 // Creating a function that changes the fly based on speedOfChange:
 function showFly(){

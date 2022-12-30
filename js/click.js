@@ -3,5 +3,5 @@ function changeWithClick(){
     clicksCounter++;
     clearInterval(timer)
     showFly();
-    timer = setInterval(showFly, speedOfChange)
+    timer = setInterval(showFly, speedOfFly)
 }
