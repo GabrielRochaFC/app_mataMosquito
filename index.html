@@ -19,24 +19,29 @@
     <div class="container">
         <div class="row justify-content-center">
             <div>
-                <img src="img/game.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="Fim de jogo">
+                <img src="img/game.png"
+                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                    alt="Fim de jogo">
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="form-group bg-success text-white p-2 rounded">
+                <label for="dificuldade">Selecione o nível</label>
+                <select class="custom-select" name="dificuldade" id="dificuldade">
+                    <option value="" selected>Selecione</option>
+                    <option value="facil">Fácil</option>
+                    <option value="normal">Normal</option>
+                    <option value="dificil">Difícil</option>
+                </select>
             </div>
         </div>
         <div class="row justify-content-center">
             <div>
-                <div class="form-group bg-success text-white p-2 rounded">
-                  <label for="dificuldade">Selecione o nível:</label>
-                  <select class="form-control" name="dificuldade" id="dificuldade">
-                    <option>Fácil</option>
-                    <option>Normal</option>
-                    <option>Difícil</option>
-                  </select>
-                </div>
-                <a name="restartBtn" id="restartBtn" class="btn btn-success font-weight-bolder rounded-pill btn-lg" href="app.html" role="button">Iniciar Jogo</a>
+                <button type="button" class="btn btn-success rounded-pill btn-lg" onclick="iniciarJogo()"> Iniciar Jogo</button>
             </div>
         </div>
     </div>
-    
+
 
 
     <!-- Optional JavaScript -->
@@ -51,6 +56,7 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
+    <script src="js/iniciarJogo.js"></script>
 </body>
 
 </html>
