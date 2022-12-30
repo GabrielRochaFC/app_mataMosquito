@@ -7,7 +7,7 @@ body{
 }
 
 /* CSS da mosca */
-#mosca{
+#fly{
     display: none;
     width: 100px;
     position: absolute;

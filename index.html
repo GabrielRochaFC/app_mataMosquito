@@ -16,9 +16,27 @@
 </head>
 
 <body>
-
-    <img src="img/mosca.png" alt="mosca" id="mosca">
-
+    <div class="container">
+        <div class="row justify-content-center">
+            <div>
+                <img src="img/game.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="Fim de jogo">
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div>
+                <div class="form-group bg-success text-white p-2 rounded">
+                  <label for="dificuldade">Selecione o nível:</label>
+                  <select class="form-control" name="dificuldade" id="dificuldade">
+                    <option>Fácil</option>
+                    <option>Normal</option>
+                    <option>Difícil</option>
+                  </select>
+                </div>
+                <a name="restartBtn" id="restartBtn" class="btn btn-success font-weight-bolder rounded-pill btn-lg" href="app.html" role="button">Iniciar Jogo</a>
+            </div>
+        </div>
+    </div>
+    
 
 
     <!-- Optional JavaScript -->
@@ -33,7 +51,6 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
-    <script src="js/mostraMosquito.js"></script>
 </body>
 
 </html>
