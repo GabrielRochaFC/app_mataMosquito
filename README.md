@@ -1,12 +1,26 @@
 # Jogo Mata Mosquito
-> Joguinho criado para testar as funcionalidades do javascript
 
-Linguagens usadas para a criação do jogo:
-* HTML
-* CSS
-* JavaScript
+## Descrição
 
-Três níveis de dificuldade:
-1. Fácil
-2. Normal
-3. Chuck Norris! (Somente ele consegue vencer esse nível)
+Mata Mosquito é um jogo divertido e desafiador no qual você tem que matar todos os mosquitos em um tempo predeterminado. O jogador tem 30 segundos para conseguir sobreviver, podendo perder no máximo 3 vidas. 
+
+## Screenshots
+
+![Screenshot do jogo](app_mataMosquito/img/cZK8XOP.png)
+
+## Tecnologias utilizadas
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+
+## Como jogar
+
+1. Baixe o repositório do jogo no Github
+2. Acesse o arquivo index.html
+3. Comece a jogar!
+
+## Níveis de dificuldade
+- Fácil
+- Normal
+- Chuck Norris (Somente para os mais habilidosos!)
