@@ -16,9 +16,10 @@ Mata Mosquito é um jogo divertido e desafiador no qual você tem que matar todo
 
 ## Como jogar
 
-1. Baixe o repositório do jogo no Github
-2. Acesse o arquivo index.html
-3. Comece a jogar!
+1. [Acesse o site clicando aqui](https://gabrielrochafc.github.io/app_mataMosquito/)
+2. Selecione o nível
+3. Clique em iniciar o jogo
+4. Divirta-se!
 
 ## Níveis de dificuldade
 - Fácil
