@@ -6,7 +6,7 @@ Mata Mosquito é um jogo divertido e desafiador no qual você tem que matar todo
 
 ## Screenshots
 
-![Screenshot do jogo](app_mataMosquito/img/cZK8XOP.png)
+![Screenshot do jogo](/img/cZK8XOP.png)
 
 ## Tecnologias utilizadas
 - HTML
